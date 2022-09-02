@@ -23,12 +23,14 @@ function App() {
 			<form onSubmit={updateValues}>
 				<label>Latitude</label>
 				<input
+					type='float'
 					value={latitude}
 					onChange={event => setLatitude(event.target.value)}
 				></input>
 
 				<label>Longitude</label>
 				<input
+					type='float'
 					value={longitude}
 					onChange={event => setLongitude(event.target.value)}
 				></input>
